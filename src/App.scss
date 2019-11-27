@@ -1,5 +1,10 @@
 $title-font: 'Permanent Marker', cursive;
 $other-font: 'Big Shoulders Text', cursive;
+$purpleOne: #d6b4e7;
+$purpleTwo: #c18eda;
+$purpleThree: #ac68cc;
+$purpleFour: #9744be;
+$purpleFive: #793698;
 
 @mixin displayJustAliDir($display, $justify, $align, $direction){
     display: $display;

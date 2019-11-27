@@ -12,6 +12,11 @@ export default function Home(){
                     <button className='signup-button'>Sign Up</button>
                 </span>
             </span>
+            <div className="three-columns">
+                <div className="column">Create Boards</div>
+                <div className="column">Create tasks</div>
+                <div className="column">Invite others to collaborate</div>
+            </div>
         </div>
     )
 }

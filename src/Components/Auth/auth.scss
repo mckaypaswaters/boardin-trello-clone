@@ -1,0 +1,83 @@
+@import '../../App.scss';
+
+.auth {
+    height: 100vh;
+    width: 100vw;
+    background: rgb(244,244,244);
+    background: linear-gradient(128deg, rgba(244,244,244,1) 2%, rgba(242,242,242,1) 11%, rgba(240,240,240,1) 51%, rgba(241,241,241,1) 100%); 
+}
+.logo-login-stack {
+    @include displayJustAliDir(flex, center, center, column);
+    .logo-title-auth {
+        @include displayJustAliDir(flex, center, center, row);
+        .boardin-auth {
+            font-size: 44px;
+            color: rgb(172,104,204);
+            color: linear-gradient(128deg, rgba(172,104,204,1) 57%, rgba(151,68,190,1) 84%);
+            margin: 25% 4% 0% 2%;
+        }
+        h1 {
+            font-family: $title-font;
+            color: rgb(172,104,204);
+            color: linear-gradient(128deg, rgba(172,104,204,1) 57%, rgba(151,68,190,1) 84%);
+            margin: 25% 2% 0% 4%;
+        }
+    }
+    .login-box {
+        height: 55vh;
+        width: 28vw;
+        margin: 3% 0;
+        background: white;
+        -webkit-box-shadow: 1px 7px 11px 0px rgba(0,0,0,0.4); 
+        box-shadow: 1px 7px 11px 0px rgba(0,0,0,0.4);
+        @include displayJustAliDir(flex, center, center, column);
+        text-align: center;
+        font-family: $other-font;
+        h3 {
+            color: #5E6C84;
+        }
+        input {
+            height: 32px;
+            width: 75%;
+        }
+        h5 {
+            color: #9A9A9A;
+            span {
+                color: $purpleFour;
+                cursor: pointer;
+            }
+        }
+        button {
+            height: 36px;
+            width: 75%;
+        }
+        .continue-button {
+            border: none;
+            background: rgb(226,228,230);
+            background: linear-gradient(128deg, rgba(226,228,230,1) 2%, rgba(242,242,242,1) 50%, rgba(226,228,230,1) 100%); 
+            color: rgb(140, 140, 140);
+            font-size: 16px;
+            font-weight: 900;
+            border-radius: 5%;
+        }
+        .google-row {
+            @include displayJustAliDir(flex, center, center, row);
+            border: none;
+            -webkit-box-shadow: 1px 7px 11px 0px rgba(0,0,0,0.4); 
+            box-shadow: 1px 7px 11px 0px rgba(0,0,0,0.4);
+            color: rgb(80, 95, 121);
+            font-size: 16px;
+            font-weight: 900;
+            border-radius: 5%;
+            img {
+                height: auto;
+                width: 18px;
+                margin: 0 2%;
+            }
+        }
+        .already {
+            color: $purpleFour;
+            border-bottom: $purpleFour;
+        }
+    }
+}
