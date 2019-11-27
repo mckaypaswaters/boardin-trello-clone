@@ -1,0 +1,9 @@
+$title-font: 'Permanent Marker', cursive;
+$other-font: 'Big Shoulders Text', cursive;
+
+@mixin displayJustAliDir($display, $justify, $align, $direction){
+    display: $display;
+    justify-content: $justify;
+    align-items: $align;
+    flex-direction: $direction;
+  }
