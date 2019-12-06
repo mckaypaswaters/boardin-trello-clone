@@ -37,8 +37,9 @@
             color: #5E6C84;
         }
         input {
-            height: 32px;
+            height: 36fpx;
             width: 75%;
+            margin: 2% 0;
         }
         h5 {
             color: #9A9A9A;
@@ -59,6 +60,7 @@
             font-size: 16px;
             font-weight: 900;
             border-radius: 5%;
+            cursor: pointer;
         }
         .google-row {
             @include displayJustAliDir(flex, center, center, row);
